@@ -1,0 +1,3 @@
+[submodule "ts_labview_tcp"]
+	path = ts_labview_tcp
+	url = https://aanania@stash.lsstcorp.org/scm/ts/ts_labview_tcp.git
