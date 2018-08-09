@@ -1,3 +1,3 @@
-[submodule "ts_labview_tcp"]
-	path = ts_labview_tcp
-	url = https://aanania@stash.lsstcorp.org/scm/ts/ts_labview_tcp.git
+[submodule "common_labview_tcpdevice"]
+	path = common_labview_tcpdevice
+	url = https://aanania@stash.lsstcorp.org/scm/ts/common_labview_tcpdevice.git
