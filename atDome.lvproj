@@ -12,10 +12,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DomeCommunicator" Type="Folder">
 			<Item Name="SmartdomeTypedefs" Type="Folder">
+				<Item Name="azimimuthPositionStatus.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/azimimuthPositionStatus.ctl"/>
 				<Item Name="commands.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/commands.ctl"/>
 				<Item Name="domeState.ctl" Type="VI" URL="../IDome/domeTypedefs/domeState.ctl"/>
+				<Item Name="engineeringStatus.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/engineeringStatus.ctl"/>
+				<Item Name="fullEngineeringStatus.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/fullEngineeringStatus.ctl"/>
 				<Item Name="openingStates.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/openingStates.ctl"/>
 				<Item Name="queries.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/queries.ctl"/>
+				<Item Name="sensorCode.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/sensorCode.ctl"/>
 				<Item Name="shortStatus.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/shortStatus.ctl"/>
 			</Item>
 			<Item Name="DomeCommunicator.lvclass" Type="LVClass" URL="../domeCommunicator/DomeCommunicator.lvclass"/>
@@ -40,6 +44,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
