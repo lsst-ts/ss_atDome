@@ -6,7 +6,7 @@ port = 50000                # Reserve a port for your service.
 
 def createServer():
 	s = socket.socket()         # Create a socket object
-	s.settimeout(5)
+	#s.settimeout(5)
 	s.bind((host, port))        # Bind to the port
 	s.listen(5)                 # Now wait for client connection.
 	c, addr = s.accept()     # Establish connection with client.
