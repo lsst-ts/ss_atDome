@@ -38,7 +38,7 @@
 			<Item Name="IDome.lvclass" Type="LVClass" URL="../IDome/IDome.lvclass"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="test.vi" Type="VI" URL="../domeController/test.vi"/>
+			<Item Name="test.vi" Type="VI" URL="../test/test.vi"/>
 			<Item Name="testVis.vi" Type="VI" URL="../test/testVis.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
