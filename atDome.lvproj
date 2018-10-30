@@ -26,7 +26,7 @@
 			<Item Name="tcpDevice.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/tcpDevice/tcpDevice.lvclass"/>
 		</Item>
 		<Item Name="DomeController" Type="Folder">
-			<Item Name="DomeITypedefs" Type="Folder">
+			<Item Name="DomeTypedefs" Type="Folder">
 				<Item Name="azimuth.ctl" Type="VI" URL="../IDome/domeTypedefs/azimuth.ctl"/>
 				<Item Name="direction.ctl" Type="VI" URL="../IDome/domeTypedefs/direction.ctl"/>
 				<Item Name="motionDirection.ctl" Type="VI" URL="../IDome/domeTypedefs/motionDirection.ctl"/>
@@ -45,23 +45,23 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ComEvents.ctl" Type="VI" URL="../common_labview_tcpdevice/ts_labview_tcp/tcpTypedefs/ComEvents.ctl"/>
-			<Item Name="deviceHeartbeat.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/deviceHeartbeat/deviceHeartbeat.lvclass"/>
-			<Item Name="deviceStatus.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/deviceStatus.ctl"/>
-			<Item Name="heartbeat.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/heartbeat.ctl"/>
-			<Item Name="messageEnd.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/messageEnd.ctl"/>
-			<Item Name="statusEnum.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/statusEnum.ctl"/>
 			<Item Name="TCPClient.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/ts_labview_tcp/TCPClient/TCPClient.lvclass"/>
 			<Item Name="TCPComEvents.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/ts_labview_tcp/TCPComEvents/TCPComEvents.lvclass"/>
 			<Item Name="TCPCommunicator.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/ts_labview_tcp/TCPCommunicator/TCPCommunicator.lvclass"/>
 			<Item Name="TCPSettings.ctl" Type="VI" URL="../common_labview_tcpdevice/ts_labview_tcp/tcpTypedefs/TCPSettings.ctl"/>
 			<Item Name="TCPSettings.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/ts_labview_tcp/TCPSettings/TCPSettings.lvclass"/>
+			<Item Name="deviceHeartbeat.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/deviceHeartbeat/deviceHeartbeat.lvclass"/>
+			<Item Name="deviceStatus.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/deviceStatus.ctl"/>
+			<Item Name="heartbeat.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/heartbeat.ctl"/>
+			<Item Name="messageEnd.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/messageEnd.ctl"/>
+			<Item Name="statusEnum.ctl" Type="VI" URL="../common_labview_tcpdevice/typedefs/statusEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
