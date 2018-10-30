@@ -22,7 +22,7 @@
 				<Item Name="sensorCode.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/sensorCode.ctl"/>
 				<Item Name="shortStatus.ctl" Type="VI" URL="../domeCommunicator/ComTypedefs/shortStatus.ctl"/>
 			</Item>
-			<Item Name="DomeCommunicator.lvclass" Type="LVClass" URL="../domeCommunicator/DomeCommunicator.lvclass"/>
+			<Item Name="ATDomeCommunicator.lvclass" Type="LVClass" URL="../domeCommunicator/ATDomeCommunicator.lvclass"/>
 			<Item Name="tcpDevice.lvclass" Type="LVClass" URL="../common_labview_tcpdevice/tcpDevice/tcpDevice.lvclass"/>
 		</Item>
 		<Item Name="DomeController" Type="Folder">
